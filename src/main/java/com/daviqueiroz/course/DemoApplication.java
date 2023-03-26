@@ -1,4 +1,4 @@
-package com.daviqueiroz.demo;
+package com.daviqueiroz.course;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
