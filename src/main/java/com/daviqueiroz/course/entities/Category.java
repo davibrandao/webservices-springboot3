@@ -16,7 +16,7 @@ public class Category implements Serializable {
 
     @Transient
     @JsonIgnore
-    @ManyToMany(mappedBy = "products")
+    @ManyToMany(mappedBy = "categories")
     private Set<Product> products = new HashSet<>();
 
     public Set<Product> getProducts() {
